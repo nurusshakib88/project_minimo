@@ -23,7 +23,7 @@ header {
 }
 
 
-.wrapper {
+.container {
 	overflow: hidden;
 	width: 90%;
 	margin: 0 auto;
@@ -64,11 +64,13 @@ header {
 	margin: 0 121px;
 	display: inline-block;
 	color: #626262;
-	text-decoration: none;
+	text-decoration: none;	
+	border-bottom: 1px solid white;
 }
 
 .menu ul li a:hover {
 	color: black;
+	border-bottom: 1px solid black;
 }
 .menu ul li a:last-child {
 	margin-right: 0;
@@ -94,7 +96,7 @@ header {
 
 /*blog 1 start*/
 
-.wrapper2 {
+.container2 {
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
@@ -102,7 +104,7 @@ header {
 }
 
 
-.wrapper2 h3{
+.container2 h3{
 	font-family: Ubuntu-Light;
 	font-size: 15px;
 	font-weight: 300;
@@ -110,12 +112,12 @@ header {
 	text-transform: uppercase;
 
 }
-.wrapper2 h2{
+.container2 h2{
 	font-size: 30px;
 	font-weight: 400;
 
 }
-.wrapper2 p{
+.container2 p{
 	font-size: 15px;
 	line-height: 25px;
 	margin-bottom: 57px;
@@ -142,11 +144,11 @@ header {
 	box-shadow: 2px 4px 10px 0px rgba(98,98,98,0.7);
 }
 
-.wrapper2 .b_img:nth-child(2) {
+.container2 .b_img:nth-child(2) {
 	margin-right: 0;
 }
 
-.wrapper2 .b_img:last-child {
+.container2 .b_img:last-child {
 	margin-right: 0;
 }
 
@@ -252,7 +254,7 @@ footer {
 	background-color: #f0f0f0;
 }
 
-.wrapper3 {
+.container3 {
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
